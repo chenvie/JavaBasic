@@ -1,4 +1,4 @@
-package test;
+package testing;
 
 public class HelloWorld {
     public static void main(String[] args){

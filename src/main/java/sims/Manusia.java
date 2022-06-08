@@ -64,11 +64,11 @@ public class Manusia extends MakhlukHidup implements AktivitasBersama{
         if (M1 instanceof Manusia){
             this.ikatanManusia += 5;
             M1.ikatanManusia += 5;
-            System.out.println(this.nama + " memarahi " + ((Manusia) M1).nama);
+            System.out.println(this.nama + " berkomunikasi " + ((Manusia) M1).nama);
         } else {
             this.ikatanHewan += 10;
             M1.ikatanManusia += 10;
-            System.out.println(this.nama + " memarahi " + ((Hewan) M1).getNama());
+            System.out.println(this.nama + " berkomunikasi " + ((Hewan) M1).getNama());
         }
         this.energi -= 5;
         M1.energi -= 5;
